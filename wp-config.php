@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /**
  * Основные параметры WordPress.
  *
@@ -16,17 +16,13 @@
 
 // ** Параметры MySQL: Эту информацию можно получить у вашего хостинг-провайдера ** //
 /** Имя базы данных для WordPress */
-define('DB_NAME', 'olimpycs.ua');
-
+define('DB_NAME', 'olympic_kl_com_ua');
 /** Имя пользователя MySQL */
-define('DB_USER', 'root');
-
+define('DB_USER', 'Olympic');
 /** Пароль к базе данных MySQL */
-define('DB_PASSWORD', '');
-
+define('DB_PASSWORD', '023649523c');
 /** Имя сервера MySQL */
-define('DB_HOST', 'localhost');
-
+define('DB_HOST', 'mysql.cba.pl');
 /** Кодировка базы данных для создания таблиц. */
 define('DB_CHARSET', 'utf8');
 
@@ -42,15 +38,7 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'ps s^7a|;#-{,}*w-/|yy^mSQ8gn%]]7 @8oQ;eV|-#aE+&]-<T]WehgB+fq}V!<');
-define('SECURE_AUTH_KEY',  'S)rOB]QAJ|:*|0GW>oxG%5$sk&DWdyqQ44|&G|Dt.dE]>ZHiTN{wq zy>;4Xjts)');
-define('LOGGED_IN_KEY',    'h6Wk X0c9nRzogl/h$[k|t[wcQ87H0buvFqmYV-S%uR@kP}d^!e[!TiX|`.PH $l');
-define('NONCE_KEY',        'cSCB~?CbL[aem mg49qV//-P<+0p=-%.glp!H$9+bS-5#tkJHJpz1LB@@r-bR9`P');
-define('AUTH_SALT',        '.6 iAR/~/<+~,&31}^VXH-yj?a*eR|e%~?>!K8.^+aRF/ht:_=OCkUi?$xKA6N)~');
-define('SECURE_AUTH_SALT', 'PdX,u9}0~C-WlN1FZ&k+2(,5KDt+q3UI|@f9cY]A@@Cz!eQQ-Pr+5Jk+p<?GC3T%');
-define('LOGGED_IN_SALT',   'tF~G[|IDluX!78=e^FP%&-AL&TG[$CDKDq0sHEBI2i50|[?S&|4Jdde1qTBjS}`j');
-define('NONCE_SALT',       'h}MYB0c2mG+PEnJ;8M# 1L,`{bv+Psq:PZ9M@{<t[G`V&8|=Vl+5/>#*Ba`ULV,`');
-
+define('AUTH_KEY',         '/*2QSp95blU5AYg4#+|iic6)J/(U^Xhx@853CB-}a,qrz#mjRywk12~@HjM2j-Z2');define('SECURE_AUTH_KEY',  'Qh] C+AM0#TxJKRkl-rj,%[^UCBY%6p|=`ieaL.{t$6^MF9N(D#dA|.^5L.M;nEo');define('LOGGED_IN_KEY',    'K$o( L:IO|/*7IGpb;ScO_DvV|:6`A!1fqF9$#WX5kHB)GXFTV^fDb/BJm_L sJ$');define('NONCE_KEY',        'j% >6h_%4fe.tCLlx e]NhcynCiTav=a+/cGxPoChIyQ<Ec|`f vgR}85x<Gas|S');define('AUTH_SALT',        '%&6Mi)U#E,j^Z-Iu$~h=V=q+oO@8LTQ!T]Kr^b0%|ZH3dp91a?;m!ZNfK lu-!|A');define('SECURE_AUTH_SALT', 't_:[-PKHbBxr;MP,aVEb>+g*-J`AFLJ1N9oZ/-AZS+6.d><-fc)Ql(!yvl:Dbw%f');define('LOGGED_IN_SALT',   'P)}~ovtE@FW!bqTI<Y,Doja)%N]6|9jO,Ko]0.M BiXNRtBBb nw=L`O HQpax$J');define('NONCE_SALT',       'C>:<wjcK$l!lOX{Hn 0D-_B]]?[j~Hs #:3?d6;8ra!`LLo(!>y-+IeDL_vz~5q%');
 /**#@-*/
 
 /**
@@ -59,8 +47,7 @@ define('NONCE_SALT',       'h}MYB0c2mG+PEnJ;8M# 1L,`{bv+Psq:PZ9M@{<t[G`V&8|=Vl+5
  * Можно установить несколько сайтов в одну базу данных, если использовать
  * разные префиксы. Пожалуйста, указывайте только цифры, буквы и знак подчеркивания.
  */
-$table_prefix  = 'vlad_';
-
+$table_prefix  = 'base_';
 /**
  * Для разработчиков: Режим отладки WordPress.
  *
