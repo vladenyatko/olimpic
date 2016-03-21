@@ -1,0 +1,250 @@
+/* General Widgets Styles */
+
+.widget {
+	margin: 0 auto 10px;
+	position: relative;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.widget-top {
+	font-size: 13px;
+	font-weight: 600;
+	background: #f7f7f7;
+}
+
+.widget-top a.widget-action,
+.widget-top a.widget-action:hover {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	outline: none;
+	text-decoration: none;
+}
+
+.widget-title h3,
+.widget-title h4 {
+	margin: 0;
+	padding: 15px;
+	font-size: 1em;
+	line-height: 1;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.widgets-holder-wrap .widget-inside {
+	border-top: none;
+	padding: 1px 15px 15px 15px;
+	line-height: 16px;
+}
+
+.in-widget-title,
+#widgets-right a.widget-control-edit,
+#available-widgets .widget-description {
+	color: #666;
+}
+
+.deleting .widget-title,
+.deleting .widget-top a.widget-action:after {
+	color: #a0a5aa;
+}
+
+/* Widget Dragging Helpers */
+.widget.ui-draggable-dragging {
+	min-width: 100%;
+}
+
+.widget.ui-sortable-helper {
+	opacity: 0.8;
+}
+
+.widget-placeholder {
+	border: 1px dashed #b4b9be;
+	margin: 0 auto 10px;
+	height: 45px;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#widgets-right .widget-placeholder {
+	margin-top: 0;
+}
+
+#widgets-right .closed .widget-placeholder {
+	height: 0;
+	border: 0;
+	margin-top: -10px;
+}
+
+/* Widget Sidebars */
+.sidebar-name {
+	position: relative;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.sidebar-name-arrow {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+}
+
+.js .sidebar-name {
+	cursor: pointer;
+}
+
+.sidebar-name h2,
+.sidebar-name h3 {
+	margin: 0;
+	padding: 8px 10px;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.widgets-holder-wrap .description {
+	padding: 0 0 15px;
+	margin: 0;
+	font-style: normal;
+	color: #777;
+}
+
+#widgets-right .widgets-holder-wrap .description {
+	padding-right: 7px;
+	padding-left: 7px;
+}
+
+/* Widgets 2-col Layout */
+div.widget-liquid-left {
+	margin: 0;
+	width: 38%;
+	float: right;
+}
+
+div.widget-liquid-right {
+	float: left;
+	width: 58%;
+}
+
+/* Widgets Left - Available Widgets */
+
+div#widgets-left {
+	padding-top: 12px;
+}
+
+div#widgets-left .closed .sidebar-name,
+div#widgets-left .inactive-sidebar.closed .sidebar-name {
+	margin-bottom: 10px;
+}
+
+div#widgets-left .sidebar-name h2,
+div#widgets-left .sidebar-name h3 {
+	padding: 10px 0;
+	margin: 0 0 0 10px;
+}
+
+#widgets-left .sidebar-name .sidebar-name-arrow:before {
+	padding: 9px;
+}
+
+#widgets-left #available-widgets,
+div#widgets-left .widget-holder {
+	background: transparent;
+	border: none;
+}
+
+#widgets-left .widgets-holder-wrap {
+	border: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+#available-widgets .widget-action {
+	display: none;
+}
+
+#available-widgets .widget {
+	margin: 0;
+}
+
+#available-widgets .widget:nth-child(odd) {
+	clear: both;
+}
+
+#available-widgets .widget .widget-description {
+	display: block;
+	padding: 10px 15px;
+	font-size: 12px;
+}
+
+#available-widgets #widget-list {
+	position: relative;
+}
+
+/* Inactive Sidebars */
+#widgets-left .inactive-sidebar {
+	clear: both;
+	width: 100%;
+	background: transparent;
+	padding: 0;
+	margin: 0 0 20px 0;
+	border: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+#widgets-left .inactive-sidebar.first {
+	margin-top: 40px;
+}
+
+/* Not sure what this is for... */
+div#widgets-left .inactive-sidebar .widget.expanded {
+	right: auto;
+}
+
+.widget-title-action {
+	float: left;
+	position: relative;
+}
+
+div#widgets-left .inactive-sidebar .widgets-sortables {
+	min-height: 42px;
+	padding: 0;
+	background: transparent;
+	margin: 0;
+	position: relative;
+}
+
+/* Widgets Right */
+
+div#widgets-right:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+div#widgets-right .sidebars-column-1,
+div#widgets-right .sidebars-column-2 {
+	max-width: 450px;
+}
+
+div#widgets-right .widgets-holder-wrap {
+	margin: 10px 0 0 0;
+}
+
+div#widgets-right .sidebar-description {
+	min-height: 20px;
+	margin-top: -5px;
+}
+
+div#widget
