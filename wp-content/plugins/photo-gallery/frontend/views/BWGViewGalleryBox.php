@@ -1371,7 +1371,7 @@ class BWGViewGalleryBox {
         });
         if (typeof data[key] != 'undefined') {
           if (typeof data[current_key] != 'undefined') {
-            if (jQuery(".bwg_play_pause") && !jQuery(".bwg_play_pause").hasClass("fa-play")) {
+            if (jQuery(".bwg_play_pause").length && !jQuery(".bwg_play_pause").hasClass("fa-play")) {
               bwg_play();
             }
             if (!from_effect) {
@@ -2193,7 +2193,7 @@ class BWGViewGalleryBox {
         });
         /* Play/pause.*/
         jQuery(".bwg_play_pause, .bwg_popup_image").on(bwg_click, function () {
-          if (jQuery(".bwg_play_pause") && jQuery(".bwg_play_pause").hasClass("fa-play")) {
+          if (jQuery(".bwg_play_pause").length && jQuery(".bwg_play_pause").hasClass("fa-play")) {
             /* Play.*/
             bwg_play();
             jQuery(".bwg_play_pause").attr("title", "<?php echo __('Pause', 'bwg'); ?>");
@@ -2325,7 +2325,7 @@ class BWGViewGalleryBox {
       }
       jQuery(window).focus(function() {
         /* event_stack = [];*/
-          if (jQuery(".bwg_play_pause") && !jQuery(".bwg_play_pause").hasClass("fa-play")) {
+          if (jQuery(".bwg_play_pause").length && !jQuery(".bwg_play_pause").hasClass("fa-play")) {
             bwg_play();
           }
         /*var i = 0;

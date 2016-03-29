@@ -22,10 +22,10 @@
     
         <?php if ( is_search() || !is_single() ) : // Only display Excerpts for Search ?>
         <div class="entry-summary">
-           	<?php the_excerpt(); ?>
-            <p class="read-more">
-<a href="<?php the_permalink(); ?>">
-<?php esc_attr_e('Читать Далее &raquo;','skt-befit'); ?>
+        	<?php the_excerpt(); ?>
+        <p class="read-more">
+		<a href="<?php the_permalink(); ?>">
+	<?php esc_attr_e('Далее &raquo;','skt-befit'); ?>
 </a>
 </p>
         </div><!-- .entry-summary -->

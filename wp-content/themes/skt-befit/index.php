@@ -79,7 +79,7 @@ get_header();
         <div class="post-content">
         <?php echo sktbefit_content(35); ?>
         </div>
-        <a href="<?php the_permalink(); ?>"><div class="morebtn"><?php _e('Читать Далее','skt-befit'); ?></div></a>
+        <a href="<?php the_permalink(); ?>"><div class="morebtn"><?php _e('Далее','skt-befit'); ?></div></a>
 	    </div><?php if($k%4==0){?><div class="clear"></div><?php } ?>
         <?php endwhile; ?>
                         <?php   // Previous/next post navigation.

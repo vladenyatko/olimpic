@@ -23,6 +23,10 @@ class BWGViewOptions_bwg {
   // Public Methods                                                                     //
   ////////////////////////////////////////////////////////////////////////////////////////
   public function display($reset = FALSE) {
+    if (isset($_GET['bwg_start_tour']) && $_GET['bwg_start_tour'] == '1') {
+      update_user_meta(get_current_user_id(), 'bwg_photo_gallery', '1');
+      WDWLibrary::spider_redirect('admin.php?page=options_bwg');
+    }
     global $WD_BWG_UPLOAD_DIR;
     ?>
     <div style="clear: both; float: left; width: 99%;">
@@ -88,7 +92,7 @@ class BWGViewOptions_bwg {
     <form method="post" class="wrap bwg_form" action="admin.php?page=options_bwg" style="float: left; width: 99%;">      
       <?php wp_nonce_field( 'options_bwg', 'bwg_nonce' ); ?>
       <span class="option-icon"></span>
-      <h2><?php _e("Edit options", 'bwg_back'); ?></h2>
+      <h2 id="ed_options"><?php _e("Edit options", 'bwg_back'); ?></h2>
       <div style="display: inline-block; width: 100%;">
         <div style="float: right;">
           <input class="button-primary" type="submit" onclick="if (spider_check_required('title', 'Title')) {return false;}; spider_set_input_value('task', 'save')" value="<?php _e("Save", 'bwg_back'); ?>" />
@@ -118,6 +122,17 @@ class BWGViewOptions_bwg {
         <div class="spider_div_options" id="div_content_1">
           <table>
             <tbody>
+             <tr>
+                <td class="spider_label_options">
+                  <label><?php echo __('Introduction tour:', 'bwg_back'); ?></label>
+                </td>
+                <td>
+                  <a href="admin.php?page=options_bwg&bwg_start_tour=1" class="button" title="<?php echo _e('Start tour', 'bwg_back'); ?>">
+                    <?php _e('Start tour', 'bwg_back'); ?>
+                  </a>
+                  <div class="spider_description"><?php echo __('Take this tour to quickly learn about the use of this plugin.', 'bwg_back'); ?></div>
+                </td>
+              </tr>
               <tr>
                 <td class="spider_label_options">
                   <label for="images_directory"><?php _e("Images directory:", 'bwg_back'); ?></label>

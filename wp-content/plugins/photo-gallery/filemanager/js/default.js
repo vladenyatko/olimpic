@@ -30,6 +30,12 @@ var isUploading;
 ////////////////////////////////////////////////////////////////////////////////////////
 jQuery(document).ready(function () {
   var all_images_count = jQuery(".item_thumb img").length;
+  if(!all_images_count) {
+    setTimeout(function(){jQuery(document).trigger("onUpload")});
+  }
+  else {
+    setTimeout(function(){jQuery(document).trigger("onSelectAllImage")});
+  }
   if (all_images_count == 0 || all_images_count <= 24) {
     jQuery("#opacity_div").hide();
     jQuery("#loading_div").hide();
@@ -297,6 +303,7 @@ function onBtnRemoveItemsClick(event, obj) {
 }
 
 function onBtnShowUploaderClick(event, obj) {
+  jQuery(document).trigger("onUploadFilesPressed");
   jQuery("#uploader").fadeIn();
 }
 
