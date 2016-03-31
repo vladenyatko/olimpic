@@ -53,7 +53,7 @@ class BWGModelGalleryBox {
       $sort_by = 't1.`order`';
     }
     if (preg_replace('/\s+/', '', $order_by) != 'asc') {
-      $order_by = 'desc';
+      $order_by = 'desc';
     }
 
     $filter_tags = (isset($_REQUEST['filter_tag_'. $bwg]) && $_REQUEST['filter_tag_'. $bwg]  ) ? explode(",",$_REQUEST['filter_tag_'. $bwg]) : array();

@@ -73,7 +73,6 @@ get_header();
       <div class="recent-post-title"><a title="<?php the_title(); ?>" href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
         </div>
         <div class="clear"></div>
-        <div class="postauthor"><?php echo get_the_author(); ?></div>
         <div class="postdate"><?php echo get_the_date('F j, Y'); ?></div>
         <div class="clear"></div>
         <div class="post-content">

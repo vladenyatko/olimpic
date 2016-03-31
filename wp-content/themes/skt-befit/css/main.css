@@ -65,12 +65,12 @@
 section{ padding:20px 0;}
 .latest-blog{ margin:0; font-family: "Roboto Condensed",sans-serif;}
 
-.section-title, .team-title{color: #ff6d84; font-family: "Lato", sans-serif; font-size: 30px; font-weight: 600; text-align: center; text-transform:uppercase; padding:40px 0;}
+.section-title, .team-title{color: #ff6d84; font-family: "Lato", sans-serif; font-size: 24px; font-weight: 600; text-align: center; text-transform:uppercase; padding:40px 0;}
 
 .recent-post-title{font:18px 'Lato', sans-serif; margin:0 0 0 5px; font-weight:700; text-align:left; text-transform:uppercase;}
 .recent-post-title a{ color:#ffffff;}
 .recent-meta{ font:italic 12px arial; color:#737373; margin-bottom:10px; text-align:center;}
-.latest-blog p{line-height:20px; min-height:100px; display:block; color:#ffffff; text-align:left; font-size:14px; padding:8px 0 8px 0;}
+.latest-blog p{line-height:20px; min-height:100px; display:block; color:#ffffff; text-align:left; font-size:16px; padding:8px 0 8px 0;}
 .latest-blog ul{color:#FFF;}
 .latest-blog span a{ color:#0ec7ab; display:inline; font:12px arial;}
 .latest-blog img{width:250px; height:250px; padding:5px;}
@@ -81,7 +81,7 @@ span.error_msg{ color:#f30;}
 .post-content{padding-left:5px; padding-bottom:20px; color:#FFF;}
 
 .postauthor{background:url(../images/author-icon.png) no-repeat scroll 0 5px; float: left; padding: 0 0 0 18px; color:#FFF; margin:10px 0 15px 5px; line-height:22px;}
-.postdate{background:url(../images/calendar-icon.png) no-repeat scroll 0 5px; float: left; margin: 10px 0 15px 20px; padding: 0 0 0 18px; color:#FFF; line-height:22px;}
+.postdate{background:url(../images/calendar-icon.png) no-repeat scroll 0 5px; float: left; margin: 10px 0 15px 0px; padding: 0 0 0 18px; color:#FFF; line-height:22px;}
 
 .welcome-box{margin:0; padding:35px 0 70px 0;}
 .welcome_title{text-align:left; font-family: 'Roboto Condensed', sans-serif; font-weight:300; font-size:29px; text-transform:uppercase; border-bottom:1px solid #f3f2f2; padding:0 0 28px 0; margin:0 0 40px 0; color:#3c3c3c;}
@@ -93,7 +93,7 @@ span.error_msg{ color:#f30;}
 
 .page-header h1{margin-bottom:0px !important; position:relative; top:50px;}
 
-.morebtn{clear: both; color: #4c3b3b; display: block; font: 400 14px "Roboto Condensed"; margin: 0 auto 0 5px; padding: 7px 0; text-align: center; text-decoration: none; width: 38%; float:left; border-radius:3px; background-color: #383939; color:#FFF;}
+.morebtn{clear: both; color: #4c3b3b; display: block; font: 400 16px "Roboto Condensed"; margin: 0 auto 0 5px; padding: 7px 0; text-align: center; text-decoration: none; width: 38%; float:left; border-radius:3px; background-color: #383939; color:#FFF;}
 .morebtn:hover{color: #ffffff !important;}
 
 .nivo-directionNav a{ top:50% !important;}
@@ -127,12 +127,12 @@ span.error_msg{ color:#f30;}
 .postmeta .post-date, .post-comment, .post-categories{ display:inline; color:#ffffff;} 
 .post-thumb{ margin:0; padding:0;}
 .post-thumb img{width:auto; height:auto;}
-.blog-post-repeat .entry-summary p, .entry-content p{ margin:15px 0; font:12px/20px arial; color:#ffffff;}
+.blog-post-repeat .entry-summary p, .entry-content p{ margin:15px 0; font:16px/20px arial; color:#ffffff;}
 .blog-post-repeat .entry-summary a, .entry-content a{color:#0ec7ab;}
 p.read-more{ margin:0 !important;}
 .blog-post-repeat:first-child{ padding-top:0 !important;}
 .blog-post, .page-content{margin-top:60px;}
-.entry-summary .read-more{ width:9%; padding:12px 20px; text-align:left; background-color:#ff7400; color:#FFF;}
+.entry-summary .read-more{ width:9%; padding:12px 20px; text-align:center; background-color:#ff7400; color:#FFF;}
 .entry-summary .read-more a{color:#FFF !important;}
 .entry-content ol, .entry-content ul{margin:5px 0;}
 .entry-content li{ line-height:20px;}
@@ -143,15 +143,13 @@ p.read-more{ margin:0 !important;}
 #sidebar aside.widget_search{padding:0;}
 #sidebar aside.widget_search input[type="search"]{ border:1px solid #f3f2f2; height:26px; width:70%; padding-left:2px;}
 #sidebar aside.widget_search input[type="submit"]{ border:none; color:#ffffff; height:28px; padding:0 10px; cursor:pointer;}
-#sidebar aside h3.widget-title{font:18px 'Roboto',san-serif; color:#0ec7ab; padding-bottom:5px; margin-bottom:10px;}
+#sidebar aside h3.widget-title{font:22px 'Roboto',san-serif; color:#0ec7ab; padding-bottom:5px; margin-bottom:10px;}
 #sidebar aside ul{ margin:0 0 0 0; padding:0;}
 #sidebar aside ul li{margin:0; padding:0 0 10px 12px; list-style:none; background:url(../images/footer-bullets.png) no-repeat 0 3px;}
 #sidebar aside ul li a{ color:#ffffff;}
 
 /* ============= Comment Form ============ */
-h1.screen-reader-text{font:22px 'Roboto',san-serif; color:#ffffff;}
-.site-nav-previous, .nav-previous{ float:left;}
-.site-nav-next, .nav-next{ float:right;}
+h1.
 h3#reply-title{font:300 18px 'Roboto',san-serif;}
 #comments{ margin:30px 0 0; padding:0; color:#FFF;}
 nav#nav-below{ margin-top:15px;}
@@ -167,7 +165,7 @@ p.form-submit input[type="submit"]{background-color:#0ec7ab;}
 /* ============ Footer ============== */
 #footer{ background-color:#222222; padding:30px 0; color:#ffffff; font-size:14px; font-family: "Roboto Condensed",sans-serif;}
 #footer .widget-column{ width:21%; margin-right:50px; padding:0; float:left;}
-#footer .widget-column h2{ text-transform:uppercase; padding-bottom:20px; font:22px 'Lato'; font-weight:700; color:#ff7400;}
+#footer .widget-column h2{ text-transform:uppercase; padding-bottom:20px; font:18px 'arial'; font-weight:700; color:#ff7400;}
 
 #footer .widget-column .foot-label{float:left; margin-top:10px;}
 #footer .widget-column .add-content{ float:left; padding:0 0 0 10px; margin-top:10px;}
