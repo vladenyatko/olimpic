@@ -17,10 +17,8 @@ get_header(); ?>
                         <?php
                             if ( is_category() ) :
                                 single_cat_title();
-
                             elseif ( is_tag() ) :
                                 single_tag_title__('Tag:', 'skt-befit');
-
                             elseif ( is_author() ) :
                                 /* Queue the first post, that way we know
                                  * what author we're dealing with (if that is the case).
@@ -32,34 +30,24 @@ get_header(); ?>
                                  * we can run the loop properly, in full.
                                  */
                                 rewind_posts();
-
                             elseif ( is_day() ) :
-                                printf( esc_attr__( 'Day: %s', 'skt-befit' ), '<span>' . get_the_date() . '</span>' );
-    
+                                printf( esc_attr__( 'Day: %s', 'skt-befit' ), '<span>' . get_the_date() . '</span>' );    
                             elseif ( is_month() ) :
-                                printf( esc_attr__( 'Month: %s', 'skt-befit' ), '<span>' . get_the_date( 'F Y' ) . '</span>' );
-    
+                                printf( esc_attr__( 'Month: %s', 'skt-befit' ), '<span>' . get_the_date( 'F Y' ) . '</span>' );    
                             elseif ( is_year() ) :
-                                printf( esc_attr__( 'Year: %s', 'skt-befit' ), '<span>' . get_the_date( 'Y' ) . '</span>' );
-    
+                                printf( esc_attr__( 'Year: %s', 'skt-befit' ), '<span>' . get_the_date( 'Y' ) . '</span>' );    
                             elseif ( is_tax( 'post_format', 'post-format-aside' ) ) :
-                                esc_attr_e( 'Asides', 'skt-befit' );
-    
+                                esc_attr_e( 'Asides', 'skt-befit' );    
                             elseif ( is_tax( 'post_format', 'post-format-image' ) ) :
-                                esc_attr_e( 'Images', 'skt-befit');
-    
+                                esc_attr_e( 'Images', 'skt-befit');    
                             elseif ( is_tax( 'post_format', 'post-format-video' ) ) :
-                                esc_attr_e( 'Videos', 'skt-befit' );
-    
+                                esc_attr_e( 'Videos', 'skt-befit' );    
                             elseif ( is_tax( 'post_format', 'post-format-quote' ) ) :
-                                esc_attr_e( 'Quotes', 'skt-befit' );
-    
+                                esc_attr_e( 'Quotes', 'skt-befit' );    
                             elseif ( is_tax( 'post_format', 'post-format-link' ) ) :
-                                esc_attr_e( 'Links', 'skt-befit' );
-    
+                                esc_attr_e( 'Links', 'skt-befit' );    
                             else :
-                                esc_attr_e( 'Archives', 'skt-befit' );
-    
+                                esc_attr_e( 'Archives', 'skt-befit' );    
                             endif;
                         ?>
                     </h1>

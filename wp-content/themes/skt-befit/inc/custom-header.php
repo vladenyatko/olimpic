@@ -20,7 +20,6 @@ function sktbefit_custom_header_setup() {
 	) ) );
 }
 add_action( 'after_setup_theme', 'sktbefit_custom_header_setup' );
-
 if ( ! function_exists( 'sktbefit_header_style' ) ) :
 /**
  * Styles the header image and text displayed on the blog
@@ -44,7 +43,6 @@ function sktbefit_header_style() {
 	<?php
 }
 endif; // sktbefit_header_style
-
 if ( ! function_exists( 'sktbefit_admin_header_style' ) ) :
 /**
  * Styles the header image displayed on the Appearance > Header admin panel.
@@ -57,14 +55,10 @@ function sktbefit_admin_header_style() {?>
 	</style><?php
 }
 endif; // sktbefit_admin_header_style
-
-
 add_action( 'admin_head', 'admin_header_css' );
 function admin_header_css(){ ?>
 	<style>pre{white-space: pre-wrap;}</style><?php
 }
-
-
 if ( ! function_exists( 'sktbefit_admin_header_image' ) ) :
 /**
  * Custom header image markup displayed on the Appearance > Header admin panel.

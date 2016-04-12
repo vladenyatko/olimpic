@@ -8,7 +8,6 @@
     <header class="entry-header">
         <h1 class="entry-title"><?php the_title(); ?></h1>
     </header><!-- .entry-header -->
-
     <div class="entry-content">
         <div class="postmeta">
             <div class="post-date"><?php echo get_the_date(); ?></div><!-- post-date -->
@@ -32,8 +31,7 @@
             <div class="post-tags"><?php the_tags(', '); ?> </div>
             <div class="clear"></div>
         </div><!-- postmeta -->
-    </div><!-- .entry-content -->
-   
+    </div><!-- .entry-content -->   
     <footer class="entry-meta">
         <?php edit_post_link( esc_attr_e( ' ', 'skt-befit' ), '<span class="edit-link">', '</span>' ); ?>
     </footer><!-- .entry-meta -->

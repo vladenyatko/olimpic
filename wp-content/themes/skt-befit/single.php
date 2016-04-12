@@ -4,16 +4,13 @@
  *
  * @package SKT BeFit
  */
-
 get_header(); ?>
-
 <div id="content">
     <div class="site-aligner">
         <section class="site-main content-left" id="sitemain">
             <div class="blog-post">
                 <?php while ( have_posts() ) : the_post(); ?>
                     <?php get_template_part( 'content', 'single' ); ?>
-
                     <?php
                     // If comments are open or we have at least one comment, load up the comment template
                     if ( comments_open() || '0' != get_comments_number() )
@@ -27,6 +24,5 @@ get_header(); ?>
         </div><!-- sidebar_right -->
         <div class="clear"></div>
     </div><!-- site-aligner -->
-</div><!-- content -->
-	
+</div><!-- content -->	
 <?php get_footer(); ?>

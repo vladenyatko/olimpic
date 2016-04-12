@@ -28,39 +28,30 @@ h1,h2,h3,h4,h5,h6{ margin:0; padding:0;}
 .alignnone{width:auto;}
 img.alignleft, .alignleft{ float:left; margin:0 0 0 0; padding:5px;}
 img.alignright, .alignright{ float:right; margin:0 0 0 0; padding:5px;}
-
-
 /* ------ Woocommerce ------- */
 select.orderby{ margin:0; padding:0; height:35px; font:14x 'PT Sans', Helvetica, sans-serif; color:#4e4e4e; border:1px solid #cccccc;}
 .woocommerce ul.products li.product .price, .woocommerce-page ul.products li.product .price{ color:#7ab040 !important;}
-
 .team_links{text-align:center; padding:10px 0; border-top:1px #fff solid;}
 .member_info{background:#f6f6f6; text-align:center; margin-top:10px;}
 .member_dtl{padding:15px;}
 .member_dtl p{ margin:5px 0 !important;}
-
 .mobile_nav a{background:url(images/mobile_nav_right.png) no-repeat right center #f6f6f6; border:1px #ccc solid; margin:4px 0 0; padding:8px 20px; display:none; font:400 20px 'Roboto Condensed',san-serif; position:relative;}
-
 .pagination{display:table; clear:both; margin-top:30px;}
 .pagination ul{list-style:none; margin:20px 0;}
 .pagination ul li{display:inline; float:left; margin-right:5px;}
 .pagination ul li span, .pagination ul li a{background:#313131; color:#fff; padding:5px 10px; display:inline-block;}
 .pagination ul li .current, .pagination ul li a:hover{background:#0ec7ab;}
 .pagination h2{display:none;}
-
 #comment-nav-above .nav-previous, #comment-nav-below .nav-previous{ float:none !important; margin:10px 0;}
 ol.comment-list li{ list-style:none; margin-bottom:20px;}
 .comment-content{line-height:22px;}
 #comments h2{margin-bottom:10px;}
-
 .spacer10{height:10px; clear:both;}
 .spacer20{height:20px; clear:both;}
 .spacer40{height:40px; clear:both;}
 .spacer80{height:80px; clear:both;}
 .text-404{color:#FFF;}
-
 .page-numbers{display: inline-block; padding: 5px 10px; margin: 0 2px 0 0; border: 1px solid #eee; line-height: 1; text-decoration: none; border-radius: 2px; font-weight: 600;}
 .page-numbers.current,
 a.page-numbers:hover{background: #f9f9f9;}
-
 #content .entry-content ul, #content .entry-content ol{margin-left:15px;}
