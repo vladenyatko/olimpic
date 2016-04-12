@@ -11,7 +11,6 @@
  */
 
 get_header(); ?>
-
 <div id="content">
     <div class="site-aligner">
         <section class="site-main content-left" id="sitemain">
@@ -41,5 +40,4 @@ get_header(); ?>
         <div class="clear"></div>
     </div><!-- site-aligner -->
 </div><!-- content -->
-
 <?php get_footer(); ?>

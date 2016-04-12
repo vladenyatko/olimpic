@@ -139,7 +139,7 @@ p.read-more{ margin:0 !important;}
 
 /* ============= Sidebar ============== */
 #sidebar {margin:67px 0 0; padding: 0; width: 281px;}
-#sidebar aside{ margin:0 0 20px; padding:0;}
+#sidebar aside{ margin:0 0 10px; padding:0;}
 #sidebar aside.widget_search{padding:0;}
 #sidebar aside.widget_search input[type="search"]{ border:1px solid #f3f2f2; height:26px; width:70%; padding-left:2px;}
 #sidebar aside.widget_search input[type="submit"]{ border:none; color:#ffffff; height:28px; padding:0 10px; cursor:pointer;}

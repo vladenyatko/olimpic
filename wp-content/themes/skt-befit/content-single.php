@@ -37,5 +37,4 @@
     <footer class="entry-meta">
         <?php edit_post_link( esc_attr_e( ' ', 'skt-befit' ), '<span class="edit-link">', '</span>' ); ?>
     </footer><!-- .entry-meta -->
-
 </article>

@@ -26,8 +26,8 @@ ul li ul, ul li ul li ul, ol li ol, ol li ol li ol{ margin-left:10px;}
 h1,h2,h3,h4,h5,h6{ margin:0; padding:0;}
 .clear{clear:both;}
 .alignnone{width:auto;}
-img.alignleft, .alignleft{ float:left; margin:0 15px 0 0; padding:5px; border:1px solid #cccccc;}
-img.alignright, .alignright{ float:right; margin:0 0 0 15px; padding:5px; border:1px solid #cccccc;}
+img.alignleft, .alignleft{ float:left; margin:0 0 0 0; padding:5px;}
+img.alignright, .alignright{ float:right; margin:0 0 0 0; padding:5px;}
 
 
 /* ------ Woocommerce ------- */

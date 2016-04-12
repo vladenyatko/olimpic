@@ -228,4 +228,5 @@ function sktbefit_category_transient_flusher() {
 	delete_transient( 'all_the_cool_cats' );
 }
 add_action( 'edit_category', 'sktbefit_category_transient_flusher' );
-add_action( 'save_post',     'sktbefit_category_transient_flusher' );
+add_action( 'save_post',     'sktbefit_category_transient_flusher' );
+?>
