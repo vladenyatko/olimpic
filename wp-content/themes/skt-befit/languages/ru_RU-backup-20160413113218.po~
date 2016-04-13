@@ -1,16 +1,14 @@
-# Loco Gettext template
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: SKT BeFit\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-07-24 17:31+0530\n"
-"POT-Revision-Date: Wed Apr 13 2016 14:32:08 GMT+0300 (Финляндия (лето))\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: \n"
+"PO-Revision-Date: Wed Apr 13 2016 14:31:03 GMT+0300 (Финляндия (лето))\n"
+"Last-Translator: admin_test <vladenyatko@ukr.net>\n"
 "Language-Team: SKT Themes <support@sktthemes.com>\n"
-"Language: \n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"Language: Russian\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
+"n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -22,7 +20,8 @@ msgstr ""
 "_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
 "esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
 "esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
-"X-Poedit-SearchPath-0: ."
+"X-Poedit-SearchPath-0: .\n"
+"X-Loco-Target-Locale: ru_RU"
 
 #: 404.php:14
 msgid "<strong>404</strong> Not Found"
@@ -142,17 +141,8 @@ msgstr ""
 msgid "% Comments"
 msgstr ""
 
-#: footer.php:13 inc/customizer.php:531
-msgid "Our Address"
-msgstr ""
-
 #: footer.php:15 inc/customizer.php:542
 msgid "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-msgstr ""
-
-#: footer.php:19
-msgctxt "Телефон"
-msgid "Call Us : "
 msgstr ""
 
 #: footer.php:19 inc/customizer.php:559
@@ -161,16 +151,6 @@ msgstr ""
 
 #: footer.php:22
 msgid "E-mail : "
-msgstr ""
-
-#: footer.php:43
-msgctxt "Меню"
-msgid "Our Menu"
-msgstr ""
-
-#: footer.php:48
-msgctxt "Новости"
-msgid "Latest Posts"
 msgstr ""
 
 #: footer.php:65
@@ -489,14 +469,6 @@ msgid ""
 "%2$s</span>"
 msgstr ""
 
-#: index.php:105
-msgid "Latest News"
-msgstr ""
-
-#: index.php:129
-msgid "Read More"
-msgstr ""
-
 #: no-results.php:14
 msgid "Nothing Found"
 msgstr ""
@@ -518,12 +490,35 @@ msgid ""
 "searching can help."
 msgstr ""
 
-#: search.php:16
-#, php-format
-msgctxt "Результаты поиска: %s"
-msgid "Search Results for: %s"
-msgstr ""
-
 #: sidebar.php:18
 msgid "Meta"
 msgstr ""
+
+#: index.php:105
+msgid "Latest News"
+msgstr "Последние новости"
+
+#: search.php:16
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Результаты поиска: %s"
+
+#: footer.php:43
+msgid "Our Menu"
+msgstr "Меню"
+
+#: footer.php:19
+msgid "Call Us : "
+msgstr "Телефон"
+
+#: footer.php:13 inc/customizer.php:531
+msgid "Our Address"
+msgstr "Наш адресс"
+
+#: footer.php:48
+msgid "Latest Posts"
+msgstr "Новости"
+
+#: index.php:129
+msgid "Read More"
+msgstr "Далее"
